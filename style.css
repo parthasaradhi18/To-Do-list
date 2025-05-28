@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(todo-list.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #25de0d74;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 22px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+}
+
+button {
+  padding: 10px;
+  background: #1ebcd1;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c1532f74;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 3px;
+  margin-bottom: 5px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+}
+
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.task-text {
+  flex: 1;
+  cursor: pointer;
+}
